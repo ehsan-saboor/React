@@ -1,4 +1,4 @@
-import ExpenseItem from "./Components/ExpenseItem";
+import AllExpenses from "./Components/Expenses/AllExpenses";
 
 function App() {
     // let expenseDate = new Date(2022, 9, 10);
@@ -34,27 +34,7 @@ function App() {
 
     return (
         <div>
-        <ExpenseItem
-            date={expenseArray[0].date}
-            title={expenseArray[0].title}
-            amount={expenseArray[0].amount}
-        />
-        <ExpenseItem
-            date={expenseArray[1].date}
-            title={expenseArray[1].title}
-            amount={expenseArray[1].amount}
-        />
-        <ExpenseItem
-            date={expenseArray[2].date}
-            title={expenseArray[2].title}
-            amount={expenseArray[2].amount}
-        />
-        <ExpenseItem
-            date={expenseArray[3].date}
-            title={expenseArray[3].title}
-            amount={expenseArray[3].amount}
-        />
-        
+            <AllExpenses items={expenseArray} />
         </div>
     );
 }
