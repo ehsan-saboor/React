@@ -4,16 +4,16 @@
 
 // we double the value of array1 and stored in array2
 
-let arrray1 = [1,2,3,4,5]
-let arrray2 = arrray1.map( x => x*2 )
+let array1 = [1,2,3,4,5]
+let array2 = array1.map( x => x*2 )
 
 // both are same 
 
-// let arrray2 = arrray1.map(function(x){
+// let array2 = array1.map(function(x){
 //     return x*2;
 // })
 
-console.log(arrray2)
+console.log(array2)
 
 
 
@@ -22,7 +22,7 @@ console.log(arrray2)
 
 // filter function create new array of the already defined array and can give permission to filter the value which we want 
 
-// we filter the value which is divisble by 2
+// we filter the value which is divisible by 2
 
 let array3 = [2,5,7,9,10,33,22,12]
 let array4 = array3.filter( x => x%2 == 0)
