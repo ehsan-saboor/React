@@ -4,7 +4,7 @@
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   max-width: 70%;
-  margin: 100px auto;
+  margin: 50px auto;
   padding: 20px;
   background-color: beige;
   border-radius: 5px;
@@ -13,12 +13,18 @@
   display: flex;
   align-items: center;
 }
+.date-flex {
+  display: flex;
+}
+.date-flex div{
+  padding: 5px;
+}
 .expense-item__price {
   margin: auto 20px;
   background-color: aquamarine;
   width: 100px;
   padding: 20px 0;
-  color: white;
+  color: black;
   text-align: center;
   border: 2px solid white;
   border-radius: 15px;
