@@ -1,6 +1,6 @@
 import AllExpenses from "./Components/Expenses/AllExpenses";
 
-function App() {
+const App = () => {
     // let expenseDate = new Date(2022, 9, 10);
     // let expenseTitle = "School Fee";
     // let expenseAmount = 300;
