@@ -8,10 +8,16 @@ const ExpenseItem = (props) => {
     const day = props.date.toLocaleString("en-us", { day: "2-digit" })
     const year = props.date.getFullYear()
 
+    const [ChangeTitlebyInput, InputTitleFunc] = useState("")
+    const changeHandler = (event) =>{
+        InputTitleFunc(event.target.value)
+    }
+
+
     const [ChangeTitle, TitleFunc] = useState(props.title)
 
     const clickhandler = () => {
-        TitleFunc("This Changed")
+        TitleFunc(ChangeTitlebyInput)
     }
 
     return (
@@ -25,6 +31,7 @@ const ExpenseItem = (props) => {
                 <h2>{ChangeTitle}</h2>
                 <ExpensePrice amount={props.amount} />
             </div>
+            <input type="text" value={ChangeTitlebyInput} onChange={changeHandler} />
             <button onClick={clickhandler}>Click Me</button>
         </Card>
     )
