@@ -30,3 +30,6 @@ text-align: center;
     border: 1px solid aquamarine;
     padding: 20px 50px;
 }
+.new-expense__actions button:hover{
+    cursor: pointer;
+}

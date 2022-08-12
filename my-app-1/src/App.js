@@ -28,11 +28,15 @@ const App = () => {
             title: "School Fee",
             amount: 200
         }
-    ]
+    ];
+
+    const againCollectFormData = (againEnteredExpenseData) =>{
+        console.log(againEnteredExpenseData)
+    }
 
     return (
         <div>
-            <NewExpenses />
+            <NewExpenses savedAgainCollectFormData={againCollectFormData} />
             <AllExpenses items={expenseArray} />
         </div>
     );
