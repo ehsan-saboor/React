@@ -1,11 +1,18 @@
+import React, { useState } from "react"
 import "../Expenses/ExpenseItem.css"
-import ExpensePrice from "../Expenses/ExpensePrice"
+import ExpensePrice from "./ExpensePrice"
 import Card from "../UI/Card"
 
 const ExpenseItem = (props) => {
     const month = props.date.toLocaleString("en-us", { month: "long" })
     const day = props.date.toLocaleString("en-us", { day: "2-digit" })
     const year = props.date.getFullYear()
+
+    const [ChangeTitle, TitleFunc] = useState(props.title)
+
+    const clickhandler = () => {
+        TitleFunc("This Changed")
+    }
 
     return (
         <Card className="expense-item">
@@ -15,10 +22,10 @@ const ExpenseItem = (props) => {
                 <div >{year}</div>
             </div>
             <div className="expense-item__description">
-                <h2>{props.title}</h2>
+                <h2>{ChangeTitle}</h2>
                 <ExpensePrice amount={props.amount} />
             </div>
-            <button>Click Me</button>
+            <button onClick={clickhandler}>Click Me</button>
         </Card>
     )
 }
