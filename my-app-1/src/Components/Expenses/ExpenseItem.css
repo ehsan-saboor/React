@@ -1,0 +1,19 @@
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: beige;
+}
+.expense-item__description {
+  display: flex;
+  align-items: center;
+}
+.date-flex {
+  display: flex;
+}
+.date-flex div {
+  padding: 5px;
+}

@@ -1,0 +1,10 @@
+.expense-item__price {
+    margin: auto 20px;
+    background-color: aquamarine;
+    width: 100px;
+    padding: 20px 0;
+    color: black;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 15px;
+  }

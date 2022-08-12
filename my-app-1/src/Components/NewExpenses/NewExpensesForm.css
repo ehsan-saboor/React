@@ -1,0 +1,32 @@
+.new-expense__controls{
+  
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.new-expense__control{
+    margin: 50px;
+}
+.new-expense__control label{
+font-size: 25px;
+display: block;
+padding: 10px 0;
+}
+.new-expense__control input{
+font-size: 20px;
+border-radius: 5px;
+}
+.new-expense__actions{
+text-align: center;
+}
+.new-expense__actions button{
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid aquamarine;
+    padding: 20px 50px;
+}
