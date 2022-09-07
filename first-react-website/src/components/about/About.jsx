@@ -1,9 +1,9 @@
 import React from 'react'
 import "./about.css"
 import Me from "../../assets/me-about.jpg"
-import {FaAward} from "react-icons/fa"
-import {HiOutlineUsers} from "react-icons/hi"
-import {BsFillFolderSymlinkFill} from "react-icons/bs"
+import { FaAward } from "react-icons/fa"
+import { HiOutlineUsers } from "react-icons/hi"
+import { BsFillFolderSymlinkFill } from "react-icons/bs"
 
 const About = () => {
   return (
@@ -20,30 +20,31 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-            
+
             <article className="about__card">
-              <FaAward className='about__icon'/>
+              <FaAward className='about__icon' />
               <h5>Experience</h5>
               <small>3 + Experience</small>
             </article>
 
             <article className="about__card">
-              <HiOutlineUsers className='about__icon'/>
+              <HiOutlineUsers className='about__icon' />
               <h5>Clients</h5>
               <small>200 + Worldwide</small>
             </article>
 
             <article className="about__card">
-              <BsFillFolderSymlinkFill className='about__icon'/>
+              <BsFillFolderSymlinkFill className='about__icon' />
               <h5>Experience</h5>
               <small>80 + Completed</small>
             </article>
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, itaque numquam qui ipsum quas provident magnam et harum est minus quidem ad aliquam aspernatur excepturi in id? Soluta praesentium recusandae maxime perferendis atque consectetur deleniti, debitis aliquam perspiciatis neque accusamus reiciendis quasi voluptatum voluptatibus quia incidunt, repellat dolor maiores est delectus consequatur voluptatem esse! Fugiat voluptatum ex est sed facilis, minus quidem vitae cumque, aspernatur nihil ab accusamus cum voluptates quod adipisci magnam, quos illum fuga. Corporis et ut quaerat delectus sed beatae ad minus mollitia consectetur dolor doloremque, minima a repellendus? Consequatur veritatis nisi ex asperiores, quidem placeat pariatur.</p>
-
-            <a href="#contact" className='btn btn-primary'>Lets Talk</a>
 
           </div>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, itaque numquam qui ipsum quas provident magnam et harum est minus quidem ad aliquam aspernatur excepturi in id? Soluta praesentium recusandae maxime perferendis atque consectetur deleniti, debitis aliquam perspiciatis neque accusamus reiciendis quasi voluptatum voluptatibus quia incidunt, repellat dolor maiores est delectus consequatur voluptatem esse! Fugiat voluptatum ex est sed facilis.</p>
+
+          <a href="#contact" className='btn btn-primary'>Lets Talk</a>
+
         </div>
 
       </div>

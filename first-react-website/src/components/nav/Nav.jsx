@@ -1,11 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./nav.css"
-import { AiOutlineHome } from "react-icons/ai"
-import { AiOutlineUser } from "react-icons/ai"
+import { AiOutlineHome, AiOutlineUser } from "react-icons/ai"
 import { BiBookAlt } from "react-icons/bi"
 import { MdOutlineMedicalServices } from "react-icons/md"
 import { RiMessage2Fill } from "react-icons/ri"
-import { useState } from 'react'
 
 const Nav = () => {
 
